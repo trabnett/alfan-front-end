@@ -3,6 +3,6 @@ It uses Material UI for styling
 
 Usage:
 
-Clone repository
-NPM install dependencies
-NPM Start.
+Clone repository . 
+NPM install dependencies . 
+NPM Start . 
