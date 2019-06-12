@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+
+}
+.body{
+  background-color: #cfe8fc;
+  min-height: 800px;
 }
 
 .App-logo {
@@ -30,4 +35,65 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  justify-content: center;
+  text-align: left;
+}
+
+.liner{
+  line-height: 2em;
+}
+.link{
+  text-decoration: none;
+}
+.sidebar{
+  background-color: white;
+  height: 100vh;
+  height: 100%;
+  width: 11em;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 12px;
+}
+.header{
+  background-color: blue;
+  height: 4em;
+  border-top-width: 0em;
+  padding-top: 1em;
+  line-height: 0em;
+  z-index: 0;
+  color: white;
+}
+.offset{
+  margin-left: 11.5em;
+}
+.home{
+  margin-left: 14em;
+  margin-top: 1em;
+}
+.card-shrink{
+  max-width: 170px;
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.more-options{
+  float: right;
+}
+.chart-top{
+  display: flex;
+}
+.color-select{
+  flex: 50%;
+  text-align: center;
+  color: white;
+  font-size: 10px;
 }
